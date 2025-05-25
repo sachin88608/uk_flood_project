@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.env
+uk_flood/
+data/flood_preprocessed.json

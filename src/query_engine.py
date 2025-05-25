@@ -1,0 +1,1 @@
+# Embedding the user query, querying Qdrant, fetching relevant results
