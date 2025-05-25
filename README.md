@@ -1,6 +1,8 @@
+Github Repo : https://github.com/sachin88608/uk_flood_project/tree/main\
+
 # Project overview, instructions, etc.
 
-To install any library in the virtual env uk_flood - USE CMD (C:\Users\gupta.sachin\OneDrive - HIPPOSTORES TECHNOLOGY PRIVATE LIMITED\Documents\uk_flood_project\uk_flood\Scripts>activate.bat)
+To install any library in the virtual env **uk_flood** - USE CMD (C:\Users\gupta.sachin\OneDrive - HIPPOSTORES TECHNOLOGY PRIVATE LIMITED**Documents\uk_flood_project\uk_flood\Scripts>activate.bat**)
 After this do - pip freeze > requirements.txt - to save the requirements in the requirements.txt file as well.
 To check the data present in the qdrant : >python src/view_qdrant_data.py
 
@@ -13,7 +15,7 @@ First Part includes files:
 4. "Pipeline completed successfully!"
 
 STEPS for part 1 - **Pull the data from an API and store in the Qdrant via Docker**
-1. Run the docker desktop 
+1. Run the docker desktop - run the image as well.
 2. Run this command on the cmd : docker run -d -p 6333:6333 -p 6334:6334 --name qdrant qdrant/qdrant
 3. Run python main.py
 
